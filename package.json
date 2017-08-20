@@ -8,7 +8,10 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "git-pages-base":"ng build --prod --base-href https://picsize.github.io/My-Sportale/",
+    "git-pages-publish":"ngh --dir wwwroot",
+    "upload-github-pages": "npm-run-all -p -r git-pages-base git-pages-publish" 
   },
   "private": true,
   "dependencies": {
@@ -43,6 +46,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "npm-run-all": "^4.0.2",
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
     "tslint": "~5.3.2",
