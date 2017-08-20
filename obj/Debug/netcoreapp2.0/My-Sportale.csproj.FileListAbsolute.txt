@@ -1,0 +1,10 @@
+p:\Repos\My-Sportale\bin\Debug\netcoreapp2.0\My-Sportale.deps.json
+p:\Repos\My-Sportale\bin\Debug\netcoreapp2.0\My-Sportale.runtimeconfig.json
+p:\Repos\My-Sportale\bin\Debug\netcoreapp2.0\My-Sportale.runtimeconfig.dev.json
+p:\Repos\My-Sportale\bin\Debug\netcoreapp2.0\My-Sportale.dll
+p:\Repos\My-Sportale\bin\Debug\netcoreapp2.0\My-Sportale.pdb
+p:\Repos\My-Sportale\obj\Debug\netcoreapp2.0\My-Sportale.csproj.CoreCompileInputs.cache
+p:\Repos\My-Sportale\obj\Debug\netcoreapp2.0\My-Sportale.AssemblyInfoInputs.cache
+p:\Repos\My-Sportale\obj\Debug\netcoreapp2.0\My-Sportale.AssemblyInfo.cs
+p:\Repos\My-Sportale\obj\Debug\netcoreapp2.0\My-Sportale.dll
+p:\Repos\My-Sportale\obj\Debug\netcoreapp2.0\My-Sportale.pdb
