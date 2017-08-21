@@ -24,8 +24,9 @@
       "My-Sportale/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
-          "Microsoft.NETCore.App": "2.0.0",
-          "Microsoft.AspNetCore.StaticFiles": "2.0.0"
+          "Microsoft.AspNetCore.Mvc": "2.0.0",
+          "Microsoft.AspNetCore.StaticFiles": "2.0.0",
+          "Microsoft.NETCore.App": "2.0.0"
         },
         "runtime": {
           "My-Sportale.dll": {}

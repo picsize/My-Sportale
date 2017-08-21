@@ -12529,8 +12529,9 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.0.0",
-      "microsoft.aspnetcore.staticfiles >= 2.0.0"
+      "Microsoft.AspNetCore.Mvc >= 2.0.0",
+      "Microsoft.AspNetCore.StaticFiles >= 2.0.0",
+      "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -12583,7 +12584,11 @@
             "target": "Package",
             "version": "2.0.0"
           },
-          "microsoft.aspnetcore.staticfiles": {
+          "Microsoft.AspNetCore.Mvc": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.AspNetCore.StaticFiles": {
             "target": "Package",
             "version": "2.0.0"
           }

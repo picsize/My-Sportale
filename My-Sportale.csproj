@@ -1,15 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
-    <PackageReference Include="microsoft.aspnetcore.staticfiles" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.0" />
   </ItemGroup>
-  <Target Name="AngularBuild" AfterTargets="Build">
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+  <!-- <Target Name="AngularBuild" AfterTargets="Build">
     <Exec Command="npm run build" />
-  </Target>
+  </Target> -->
+  <Target Name="Build Angular" Condition="'$(Configuration)'=='Release'" BeforeTargets="Build">    
+   <Message Text="* * * * * * Building Angular App * * * * * *" Importance="high" />
+   <Exec Command="ng build -prod -aot" />
+</Target>
 </Project>
